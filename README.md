@@ -100,7 +100,7 @@ Exploratory Data Analysis was performed to better understand the dataset charact
 ---
 
 
-<img src="Capture EDA.PNG" width="600"/>
+<img src="Capture model Grbage classification.PNG" width="600"/>
 
 ## 🚀 Installation & Setup
 Clone the repository and install dependencies:
