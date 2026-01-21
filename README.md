@@ -33,28 +33,64 @@ This project aims to classify garbage images into predefined categories using ma
 - **Dataset Source:** (e.g., Kaggle / Custom dataset)
 - **Total Images:** XXXX
 - **Classes:**
-  - Plastic
-  - Paper
-  - Metal
-  - Glass
-  - Organic
-  - Others
+ 
+    - battery
+    - biology
+    - cardboard
+    - clothes
+    - glass
+    - metal
+    - paper
+    - plastic
+    - shoes
+    - trash
+
 - **Image Size:** 299 × 299
 - **Data Split:**
   - Training: 70%
   - Validation: 15%
   - Testing: 15%
 
-### Dataset Structure
+  
+---
 
-# Garbage Classification using Xception (TensorFlow Lite)
-
-This project performs garbage / waste classification using a **TensorFlow Lite (TFLite) Xception model**.  
-It is designed to run locally or inside Docker using Python.
+## 🧠 Methodology
+1. Data preprocessing (resizing, normalization, augmentation)
+2. Model selection and architecture design
+3. Model training and validation
+4. Performance evaluation
+5. Prediction on new images
 
 ---
 
-## 📁 Project Structure
+## 🏗️ Model Architecture
+- Convolutional Neural Network (CNN)
+- Transfer Learning (e.g., ResNet50 / MobileNet / VGG16)
+- Softmax activation for multi-class classification
+
+---
+
+## ⚙️ Technologies Used
+- **Language:** Python
+- **Frameworks & Libraries:**
+  - TensorFlow / PyTorch
+  - OpenCV
+  - NumPy
+  - Matplotlib
+  - Scikit-learn
+- **Tools:** Jupyter Notebook / Google Colab
+
+---
+
+## 🚀 Installation & Setup
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/garbage-classification.git
+cd garbage-classification
+pip install -r requirements.txt
+
+
 
 
 
