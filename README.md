@@ -108,6 +108,9 @@ cd garbage-classification
 pip install -r requirements.txt
 
 
+<img src="Capture EDA.PNG" width="600"/>
+
+
 
 
 
