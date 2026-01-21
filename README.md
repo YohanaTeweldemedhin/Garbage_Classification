@@ -61,6 +61,40 @@ This project aims to classify garbage images into predefined categories using ma
 4. Performance evaluation
 5. Prediction on new images
 
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis was performed to better understand the dataset characteristics, class distribution, and image properties before model training.
+
+### 1. Class Distribution Analysis
+- Analyzed the number of images per garbage category
+- Identified class imbalance across different waste types
+- Helped in deciding data augmentation strategies
+
+<img src="Capture EDA.png" width="600"/>
+
+
+### 2. Sample Visualization
+- Visualized random images from each class
+- Verified labeling correctness
+- Observed visual similarities between classes (e.g., plastic vs glass)
+
+### 3. Image Dimension Analysis
+- Checked image height, width, and channels
+- Identified varying image sizes
+- Standardized all images to **299 × 299** pixels
+
+
+### 6. Insights from EDA
+- Some classes contained fewer samples, causing imbalance
+- Data augmentation was required to improve model generalization
+
+---
+
+
+
 ---
 
 ## 🏗️ Model Architecture
