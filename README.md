@@ -110,6 +110,13 @@ git clone https://github.com/YohanaTeweldemedhin/Garbage_Classification
 cd garbage-classification
 pip install -r requirements.txt
 
+docker build -t garbage-classification .
+
+docker run --rm garbage-classification python train.py
+
+docker run --rm garbage-classification python test.py
+
+
 
 
 
