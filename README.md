@@ -76,6 +76,7 @@ Exploratory Data Analysis was performed to better understand the dataset charact
 <img src="Capture EDA.png" width="600"/>
 
 
+
 ### 2. Sample Visualization
 - Visualized random images from each class
 - Verified labeling correctness
