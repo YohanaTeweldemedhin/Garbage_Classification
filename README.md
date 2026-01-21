@@ -39,13 +39,24 @@ This project aims to classify garbage images into predefined categories using ma
   - Glass
   - Organic
   - Others
-- **Image Size:** 224 × 224
+- **Image Size:** 299 × 299
 - **Data Split:**
   - Training: 70%
   - Validation: 15%
   - Testing: 15%
 
 ### Dataset Structure
+
+# Garbage Classification using Xception (TensorFlow Lite)
+
+This project performs garbage / waste classification using a **TensorFlow Lite (TFLite) Xception model**.  
+It is designed to run locally or inside Docker using Python.
+
+---
+
+## 📁 Project Structure
+
+
 
 
 
