@@ -31,7 +31,7 @@ This project aims to classify garbage images into predefined categories using ma
 
 ## 🗂️ Dataset
 - **Dataset Source:** (e.g., Kaggle / Custom dataset)
-- **Total Images:** XXXX
+- **Total Images:**
 - **Classes:**
  
     - battery
@@ -65,7 +65,7 @@ This project aims to classify garbage images into predefined categories using ma
 
 ## 🏗️ Model Architecture
 - Convolutional Neural Network (CNN)
-- Transfer Learning (e.g., ResNet50 / MobileNet / VGG16)
+- Transfer Learning (xception)
 - Softmax activation for multi-class classification
 
 ---
@@ -73,12 +73,11 @@ This project aims to classify garbage images into predefined categories using ma
 ## ⚙️ Technologies Used
 - **Language:** Python
 - **Frameworks & Libraries:**
-  - TensorFlow / PyTorch
-  - OpenCV
+  - TensorFlow / keras
   - NumPy
   - Matplotlib
   - Scikit-learn
-- **Tools:** Jupyter Notebook / Google Colab
+- **Tools:** Jupyter Notebook 
 
 ---
 
@@ -86,9 +85,12 @@ This project aims to classify garbage images into predefined categories using ma
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/garbage-classification.git
+git clone https://github.com/YohanaTeweldemedhin/Garbage_Classification
 cd garbage-classification
 pip install -r requirements.txt
+
+
+
 
 
 
